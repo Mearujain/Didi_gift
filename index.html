@@ -631,7 +631,7 @@ playButton.addEventListener("click", function () {
       cursorinner.style.left = x + "px";
       cursorinner.style.top = y + "px";
       if (lengthfromend(x, y) > window.innerWidth / 20 && y < 600 && y > 300) {
-        const first = images[Index % 100],
+        const first = images[Index % 36],
           tail = images[(Index - 5) % 10];
         const name = document.getElementById("image-text");
         const text = first.getAttribute("alt");
